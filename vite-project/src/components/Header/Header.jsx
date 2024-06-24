@@ -1,10 +1,19 @@
-import { ContainerH } from "./styles";
-import { Link } from "react-router-dom";
-
-export default function Header() {
+// src/components/Header/Header.js
+import React from "react";
+import { HeaderWrapper, Nav } from "./styles";
+import Logo from "./Logo";
+import ButtonEventos from "../Buttons/ButtonEventos";
+import ButtonHome from "../Buttons/ButtonHome";
+const Header = () => {
   return (
-    <ContainerH>
-      <Link to="/">Home</Link>
-    </ContainerH>
+    <HeaderWrapper>
+      <Logo />
+      <Nav>
+        <ButtonEventos />
+        <ButtonHome />
+      </Nav>
+    </HeaderWrapper>
   );
-}
+};
+
+export default Header;
