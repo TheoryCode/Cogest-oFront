@@ -4,16 +4,15 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import GlobalStyle from "./styles/GlobalStyles";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-
+import GerenciarEvento from "./pages/EventManager/EventManager";
 function App() {
   return (
     <Router>
       <GlobalStyle />
       <Header />
       <main>
-        <Routes>
-          <Route path="/" element={<div>Home Page</div>} />
-        </Routes>
+        <GerenciarEvento />
+        <Routes></Routes>
       </main>
       <Footer />
     </Router>

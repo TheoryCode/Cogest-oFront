@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../Header/styles";
+import { Button } from "../Header/Styles";
 
 const ButtonEventos = () => {
   return (

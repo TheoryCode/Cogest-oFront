@@ -9,6 +9,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
+    height: 100%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
@@ -16,6 +17,8 @@ const GlobalStyles = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
     background-color: #7f260f;
     color: #333;
+    display: flex;
+    flex-direction: column;
   }
 
   code {
