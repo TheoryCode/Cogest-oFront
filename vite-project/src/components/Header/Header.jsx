@@ -1,16 +1,15 @@
 // src/components/Header/Header.js
 import React from "react";
-import { HeaderWrapper, Nav } from "./Styles";
-import Logo from "./Logo";
-import ButtonEventos from "../Buttons/ButtonEventos";
-import ButtonHome from "../Buttons/ButtonHome";
+import { HeaderWrapper, Logo, ButtonHome, ButtonEventos, Nav } from "./Styles";
+import icone1 from "../../assets/images/icone1.png";
+
 const Header = () => {
   return (
     <HeaderWrapper>
-      <Logo />
+      <Logo src={icone1} alt="icone 1" />
       <Nav>
-        <ButtonEventos />
-        <ButtonHome />
+        <ButtonEventos>Eventos</ButtonEventos>
+        <ButtonHome>Home</ButtonHome>
       </Nav>
     </HeaderWrapper>
   );

@@ -18,8 +18,20 @@ export const Nav = styled.nav`
   gap: 20px;
 `;
 
-export const Button = styled.a`
-  padding: 10px 20px;
+export const ButtonHome = styled.a`
+  padding: 10px 40px;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+`;
+export const ButtonEventos = styled.a`
+  padding: 10px 40px;
   border: 1px solid white;
   color: white;
   cursor: pointer;

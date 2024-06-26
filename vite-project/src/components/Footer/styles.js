@@ -10,7 +10,7 @@ export const FooterWrapper = styled.footer`
   color: white;
 `;
 
-export const Logo = styled.img`
+export const Logo2 = styled.img`
   width: 200px;
   height: 120px;
 `;
