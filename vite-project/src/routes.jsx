@@ -4,13 +4,13 @@ import {
   Route,
   createRoutesFromElements,
 } from "react-router-dom";
-import { AppLayout } from "./src/components/AppLayout/AppLayout";
-import { GerenciarEvento } from "./src/pages/EventManager/EventManager";
+import AppLayout from "./components/AppLayout/AppLayout";
+import GerenciarEvento from "./pages/EventManager/EventManager";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<AppLayout />}>
-      <Route path="gerenciar-eventos" element={<GerenciarEvento />} />
+      <Route path="/" element={<GerenciarEvento />} />
     </Route>
   )
 );

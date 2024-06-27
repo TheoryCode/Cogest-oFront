@@ -8,16 +8,19 @@ export const TituloAdd = styled.div`
   color: antiquewhite;
   text-align: center;
   position: relative;
-  display: inline-block;
+  align-items: center;
 
   &::after {
     content: "";
     position: absolute;
-    left: -15%;
+    display: flex;
+    left: 25%;
     bottom: -3px; /* Ajuste a posição vertical do sublinhado */
-    width: 100%;
+    width: 50%;
     height: 2px; /* Espessura do sublinhado */
     background-color: #ffd599; /* Cor do sublinhado */
+    align-items: center;
+    justify-content: space-between;
   }
 
   @media (max-width: 280px) {
@@ -32,16 +35,19 @@ export const TituloGerenciar = styled.div`
   color: antiquewhite;
   text-align: center;
   position: relative;
-  display: inline-block;
+  align-items: center;
 
   &::after {
     content: "";
     position: absolute;
-    left: -15%;
+    display: flex;
+    left: 30%;
     bottom: -3px; /* Ajuste a posição vertical do sublinhado */
-    width: 100%;
+    width: 40%;
     height: 2px; /* Espessura do sublinhado */
     background-color: #ffd599; /* Cor do sublinhado */
+    align-items: center;
+    justify-content: space-between;
   }
 
   @media (max-width: 280px) {
